@@ -1,7 +1,7 @@
 package kvmsg
 
 import (
-	zmq "github.com/pebbe/zmq4"
+	zmq "github.com/thecubic/zmq4"
 
 	"os"
 	"testing"

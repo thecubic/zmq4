@@ -5,8 +5,8 @@
 package main
 
 import (
-	zmq "github.com/pebbe/zmq4"
-	"github.com/pebbe/zmq4/examples/kvmsg"
+	zmq "github.com/thecubic/zmq4"
+	"github.com/thecubic/zmq4/examples/kvmsg"
 
 	"fmt"
 	"math/rand"
