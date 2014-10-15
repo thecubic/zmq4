@@ -2,7 +2,7 @@ package zmq4
 
 /*
 #cgo linux CFLAGS: -I/home/thecubic/g/zeromq-static/include
-#cgo linux LDFLAGS: -static -static-libgcc -static-libstdc++ -L//home/thecubic/g/zeromq-static/lib -Wl,-Bstatic -lzmq 
+#cgo linux LDFLAGS: -static -static-libgcc -static-libstdc++ -L//home/thecubic/g/zeromq-static/lib -Wl,-Bstatic -lgcc -lstdc++ -lzmq 
 #cgo windows CFLAGS: -I/usr/local/include
 #cgo windows LDFLAGS: -L/usr/local/lib -lzmq
 #include <zmq.h>
